@@ -30,7 +30,7 @@ class Shirt extends Component {
               <br></br>
               Please email your image to Job Wong (<a href="mailto:job.wong81@gmail.com">job.wong81@gmail.com</a>)
             </p>
-            <img src={face} style={{height:"300px"}}/>
+            <img src={face} style={{height:"300px"}} alt="shirt"/>
           </div>
         </div>
       </div>

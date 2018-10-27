@@ -13,7 +13,7 @@ class Speaker extends Component {
         </p>
         <div className="row">
           <div className="col s12 m6" id="speakerFace">
-            <img src={face} id="speakerFace"/>
+            <img src={face} id="speakerFace" alt="speaker"/>
           </div>
           <div className="col s12 m6" id="speakerBio">
             <p>
