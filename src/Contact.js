@@ -17,7 +17,7 @@ class Contact extends Component {
             <input type="text" name="Name" placeholder="Your Name (First and Last)" style={{fontFamily:"Avenir"}}/>
             <input type="email" name="Email" placeholder="Your Email" style={{fontFamily:"Avenir"}} />
             <textarea type="text" name="Message" placeholder="Message" style={{fontFamily:"Avenir"}} />
-            <input type="submit" value="Send" style={{fontFamily:"Avenir"}} id="sendButton" />
+            <input type="submit" value="Send" style={{fontFamily:"Avenir",backgroundColor:"none"}} id="sendButton" />
           </form>
         </div>
         <a href="/Contact" id="backtotop" style={{marginTop:"40px"}}><i className="fas fa-caret-up"></i>&nbsp;Back to top</a>

@@ -9,7 +9,7 @@ class Speaker extends Component {
         <p id="contentTitle" style={{marginBottom:"30px",paddingBottom:"10px"}}>
           Jonathan Thompson
           <br></br>
-          <sup style={{fontSize:"14px",fontStyle:"italic"}}>Church planter at Perimeter Church</sup>
+          <sup style={{fontSize:"14px",fontStyle:"italic",fontWeight:"normal"}}>Church planter at Perimeter Church</sup>
         </p>
         <div className="row">
           <div className="col s12 m6" id="speakerFace">
