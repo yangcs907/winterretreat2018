@@ -4,7 +4,7 @@ import "./index.css";
 class About extends Component {
   render() {
     return (
-      <div className="contentDiv" style={{paddingTop:"25px"}}>
+      <div className="contentDiv" style={{paddingTop:"25px"}} id="top">
         <p><span id="break">|&nbsp;</span><span>What is Winter Retreat 2018?&nbsp;</span></p>
         <p id="textBody">
           Winter Retreat 2018 is quite simply the absolute best thing you can do to end 2018. Come and join brothers and sisters in Christ for
@@ -68,6 +68,7 @@ class About extends Component {
             <li>Stolen goods</li>
           </ul>
         </p>
+        <a href="/About" id="backtotop"><i className="fas fa-caret-up"></i>&nbsp;Back to top</a>
       </div>
     )
   };

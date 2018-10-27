@@ -226,6 +226,12 @@ textarea {
 #sendButton:hover {
   font-weight: bold;
 }
+#backtotop {
+  display: none;
+  font-size: 13px;
+  color: #2ef;
+  font-weight: bold;
+}
 .footer {
   border-top-style: solid;
   border-width: 0.5px;
@@ -316,6 +322,15 @@ textarea {
   #speakerFace {
     padding: 0px;
     height: 320px;
+  }
+  #speakerBio p {
+    margin-bottom: 0px;
+  }
+  #shirtImage {
+    height: 100%;
+  }
+  #backtotop {
+    display: flex;
   }
   .footer {
     padding-left: 20px;

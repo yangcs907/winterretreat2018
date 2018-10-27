@@ -31,6 +31,7 @@ class Workshops extends Component {
           <p id="textBody">
             A workshop dedicated to teaching the fundamentals of bee keeping.
           </p>
+          <a href="/Workshops" id="backtotop"><i className="fas fa-caret-up"></i>&nbsp;Back to top</a>
       </div>
     )
   };

@@ -33,6 +33,7 @@ class Shirt extends Component {
             <img src={face} style={{height:"300px"}} alt="shirt"/>
           </div>
         </div>
+        <a href="/Shirt" id="backtotop"><i className="fas fa-caret-up"></i>&nbsp;Back to top</a>
       </div>
     )
   };

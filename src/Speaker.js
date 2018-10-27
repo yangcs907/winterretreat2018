@@ -27,6 +27,7 @@ class Speaker extends Component {
             </p>
           </div>
         </div>
+        <a href="/Speaker" id="backtotop"><i className="fas fa-caret-up"></i>&nbsp;Back to top</a>
       </div>
     )
   };

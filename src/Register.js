@@ -46,6 +46,7 @@ class Register extends Component {
               <br></br><br></br>
             You MUST bring a signed copy of this waiver form to the check-in.
           </p>
+          <a href="/Register" id="backtotop"><i className="fas fa-caret-up"></i>&nbsp;Back to top</a>
       </div>
     )
   };

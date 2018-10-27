@@ -20,6 +20,7 @@ class Contact extends Component {
             <input type="submit" value="Send" style={{fontFamily:"Avenir"}} id="sendButton" />
           </form>
         </div>
+        <a href="/Contact" id="backtotop" style={{marginTop:"40px"}}><i className="fas fa-caret-up"></i>&nbsp;Back to top</a>
     </div>
     )
   };
