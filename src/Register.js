@@ -9,9 +9,11 @@ class Register extends Component {
         <p id="contentTitle">Registration Instructions</p>
           <p><span id="break">|&nbsp;</span><span>Fees</span></p>
           <p id="textBody">
-            <p><span style={{fontWeight:"bold"}}>$100</span> - view only package. Does not include food, housing, participation in activities or main sessions</p>
-            <p><span style={{fontWeight:"bold"}}>$35,000</span> - standard package. Includes food, housing, participation in activities and main sessions</p>
-            <p><span style={{fontWeight:"bold"}}>$35,020</span> - VIP package. Includes everything in standard, plus priority in food line, autograph signing, plus access to VIP lounge</p>
+            <span style={{fontWeight:"bold"}}>$100</span> - view only package. Does not include food, housing, participation in activities or main sessions
+              <br></br>
+            <span style={{fontWeight:"bold"}}>$35,000</span> - standard package. Includes food, housing, participation in activities and main sessions
+              <br></br>
+            <span style={{fontWeight:"bold"}}>$35,020</span> - VIP package. Includes everything in standard, plus priority in food line, autograph signing, plus access to VIP lounge
           </p>
           <p><span id="break">|&nbsp;</span><span>Registration</span></p>
           <p id="textBody">
