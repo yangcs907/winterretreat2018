@@ -1,0 +1,361 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.headerDiv {
+  height: 300px;
+  background-image: url("./images/adventure.jpg");
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.navLinks {
+  text-align: center;
+  padding: 10px;
+  font-family: "Avenir", sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(255,255,255,0.3);
+}
+
+#navLinks {
+  margin: 0px;
+}
+
+.navLinks a {
+  color: rgba(0,0,0,0.8);
+  font-weight: 440;
+}
+
+.navLinks a:hover {
+  color: #2ef;
+  /* color: #00ecff; */
+  font-weight: 450;
+}
+
+#activeLink {
+  color: red;
+}
+
+.titleDiv {
+  margin: auto;
+  text-align: left;
+  padding: 40px;
+  padding-left: 150px;
+  font-family: "Avenir", sans-serif;
+}
+
+.titleDiv h5 {
+  font-size: 32px;
+  font-weight: 550;
+  color: white;
+}
+
+.titleDiv p {
+  color: rgba(255,255,255,0.9);
+  font-size: 22px;
+  font-weight: 550;
+  font-style: normal;
+}
+
+.titleDiv span {
+  color: #2ef;
+  font-weight: 450;
+}
+
+#verse {
+  font-size: 16px;
+  font-style: italic;
+}
+
+#headerDesc {
+  padding-top: 0px;
+  padding-left: 150px;
+  text-align: left;
+}
+
+#headerDesc p {
+  font-weight: 520;
+  /* color: rgba(0,0,0,0.5); */
+  color: white;
+}
+#date {
+  font-style: italic;
+  background-color: rgba(255,255,255,0.0);
+  border-radius: 5px;
+  width: 300px;
+}
+#date span {
+  text-align: right;
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.0);
+  padding-left:3px;
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+.contentDiv {
+  font-family: "Avenir", sans-serif;
+  padding-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+.contentDiv p {
+  font-size: 16px;
+}
+.contentDiv span {
+  font-weight: bold;
+}
+#break {
+  color: #2ef;
+  font-weight: bold;
+}
+#textBody {
+  padding-left: 7px;
+}
+#listStyle {
+  margin-left: 50px;
+}
+li {
+  list-style-type: disc !important;
+  color: rgba(0,0,0,0.8);
+}
+
+#contentTitle {
+  font-size: 25px;
+  font-weight: 450;
+  text-align: center;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #2ef;
+  margin: 0px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+#speakerFace {
+  text-align: center;
+  height: 400px;
+}
+#speakerFace img {
+  border-radius: 5px;
+}
+#speakerBio {
+  color: rgba(0,0,0,0.6);
+}
+#workshopsTitle {
+  font-size: 25px;
+  font-weight: 450;
+  text-align: center;
+}
+#shirtTitle {
+  font-size: 25px;
+  font-weight: 450;
+  text-align: center;
+}
+#shirtImage {
+  height: 400px;
+  text-align: center;
+}
+#shirtImage img {
+  border-radius: 5px;
+}
+
+#registerButton {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.8);
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: (158,158,158,1);
+}
+#registerButton:hover {
+  font-size: 16.5px;
+  /* background-color: rgba(0,0,0,0.1); */
+  color: rgba(32,238,255,1);
+}
+
+
+#dropdownButton {
+  color: #2ef;
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+#dropdownLinks {
+  font-family: "Avenir", sans-serif;
+  color: rgba(0,0,0,0.6);
+}
+
+.footer {
+  border-top-style: solid;
+  border-width: 0.5px;
+  border-color: rgba(158,158,158,0.7);
+  height: 30px;
+  padding-left: 15px;
+}
+.footer p {
+  font-family: "Avenir", sans-serif;
+  color: rgba(0,0,0,0.8);
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+@media screen and (max-width: 1170px) {
+  .titleDiv {
+    padding-top: 20px;
+  }
+  #headerDesc {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navLinks {
+    display: none;
+  }
+  .titleDiv {
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 120px;
+  }
+  #headerDesc {
+    padding-left: 100px;
+  }
+  #headerDesc span {
+    background-color: rgba(0,0,0,0);
+  }
+  .contentDiv {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  #dropdownButton {
+    display: flex;
+  }
+}
+@media screen and (max-width: 800px) {
+  .titleDiv {
+    padding-left: 80px;
+  }
+  #headerDesc {
+    display: none;
+  }
+  .headerDiv {
+    background-size: 150%;
+  }
+  .contentDiv {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .titleDiv {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: right;
+    padding-top: 22px;
+  }
+  .titleDiv p {
+    font-size: 24;
+    text-align: right;
+    /* color: rgba(0,0,0,0.5); */
+    color: rgba(255,255,255,0.9);
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  #verse {
+    font-weight: bold;
+  }
+  .contentDiv {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #listStyle {
+    margin-left: 25px;
+  }
+  #contentTitle {
+    font-size: 20px;
+  }
+  #speakerFace {
+    padding: 0px;
+    height: 320px;
+  }
+
+}
+@media screen and (max-width: 360px) {
+  .headerDiv {
+    background-size: 180%;
+  }
+}
+@media screen and (max-width: 325px) {
+  .titleDiv {
+    padding-top: 30px;
+  }
+  .titleDiv p {
+    margin-top: 50px;
+  }
+
+}
+
+/* @media screen and (max-width: 1200px) {
+  .titleDiv {
+    padding-left: 250px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .titleDiv {
+    padding-left: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .headerDiv {
+    background-size: 150%;
+  }
+  .navLinks {
+    display: none;
+  }
+  .titleDiv {
+    padding: 50px;
+    padding-top: 70px;
+    width: 100%;
+  }
+  .titleDiv h5 {
+    color: white;
+    font-weight: bold;
+  }
+  .titleDiv p {
+    color: rgba(0,0,0,0.6);
+    margin-top: 30px;
+  }
+  #verse {
+    margin-top: 70px;
+  }
+  #headerDesc {
+    display: none;
+  }
+  .contentDiv {
+    margin: 0px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .headerDiv {
+    background-size: 180%;
+  }
+} */
