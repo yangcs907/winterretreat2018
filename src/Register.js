@@ -9,11 +9,13 @@ class Register extends Component {
         <p id="contentTitle">Registration Instructions</p>
           <p><span id="break">|&nbsp;</span><span>Fees</span></p>
           <p id="textBody">
-            <span style={{fontWeight:"bold"}}>$100</span> - view only package. Does not include food, housing, participation in activities or main sessions
+            <span style={{fontWeight:"bold"}}>$100</span> - Youth early registration price (before December 1st 2018)
               <br></br>
-            <span style={{fontWeight:"bold"}}>$35,000</span> - standard package. Includes food, housing, participation in activities and main sessions
+            <span style={{fontWeight:"bold"}}>$150</span> - Youth early normal registration price
               <br></br>
-            <span style={{fontWeight:"bold"}}>$35,020</span> - VIP package. Includes everything in standard, plus priority in food line, autograph signing, plus access to VIP lounge
+            <span style={{fontWeight:"bold"}}>$1,000</span> - Youth late registration price (on or after December 28th 2018)
+              <br></br>
+            <span style={{fontWeight:"bold"}}>$70</span> - Counselor / Staff registration price
           </p>
           <p><span id="break">|&nbsp;</span><span>Registration</span></p>
           <p id="textBody">

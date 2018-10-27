@@ -295,6 +295,12 @@ li {
     padding: 0px;
     height: 320px;
   }
+  .footer {
+    padding-left: 20px;
+  }
+  .footer p {
+    margin-bottom: 12px;
+  }
 
 }
 @media screen and (max-width: 360px) {

@@ -26,7 +26,10 @@ class Shirt extends Component {
               </ul>
           </div>
           <div className="col s12 m6" id="shirtImage">
-            <p style={{fontSize:"14px"}}>*Designs must be RASTER images. If you do not know what that is, please use the popular search engine Google*</p>
+            <p style={{fontSize:"14px"}}>*Designs must be RASTER images. If you do not know what that is, please use the popular search engine Google*
+              <br></br>
+              Please email your image to Job Wong (<a href="mailto:job.wong81@gmail.com">job.wong81@gmail.com</a>)
+            </p>
             <img src={face} style={{height:"300px"}}/>
           </div>
         </div>

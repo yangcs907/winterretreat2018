@@ -16,7 +16,7 @@ class About extends Component {
         </p>
         <p><span id="break">|&nbsp;</span><span>Theme&nbsp;:</span>&nbsp;"Perseverance"</p>
         <p id="textBody">
-          <span style={{fontStyle:"italic"}}>I have fought the good fight, I have finished the race, I have kept the faith. - 2 Timothy 4:7</span>
+          <span style={{fontStyle:"italic"}}>"I have fought the good fight, I have finished the race, I have kept the faith." -&nbsp;2&nbsp;Timothy 4:7</span>
           <br></br>
           This is the awesome theme for Winter Retreat 2018. It is awesome because it is from the Bible and the Bible is really cool and awesome. This
           verse embodies perseverance in our walk with Jesus.
