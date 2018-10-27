@@ -203,7 +203,29 @@ li {
   font-family: "Avenir", sans-serif;
   color: rgba(0,0,0,0.6);
 }
-
+textarea {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(158,158,158,1);
+  margin-top: 20px;
+  height: 100px;
+}
+::placeholder {
+    color: rgba(0,0,0,0.4);
+}
+#sendButton {
+  font-family: "Avenir", sans-serif;
+  color: #2ef;
+  background-color: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#sendButton:hover {
+  font-weight: bold;
+}
 .footer {
   border-top-style: solid;
   border-width: 0.5px;
