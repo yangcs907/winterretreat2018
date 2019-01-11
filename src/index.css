@@ -143,6 +143,7 @@ li {
   border-color: #2ef;
   margin: 0px;
   margin-bottom: 25px;
+  margin-top: 10px;
   padding: 15px;
   font-weight: normal;
 }
@@ -167,7 +168,7 @@ li {
   text-align: center;
 }
 #shirtImage {
-  height: 400px;
+  height: 450px;
   text-align: center;
 }
 #shirtImage img {

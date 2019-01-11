@@ -9,39 +9,6 @@ const activeStyle = {
 };
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      about: false,
-      speaker: false,
-      workshops: false,
-      register: false,
-      tShirt: false,
-      contact: false
-    }
-  };
-  setAbout = () => {
-        this.setState({
-          about: true,
-          speaker: false,
-          workshops: false,
-          register: false,
-          tShirt: false,
-          contact: false
-        });
-        console.log("hello");
-  };
-
-  seeState = () => {
-    console.log(this.state.about);
-    console.log(this.state.speaker);
-    console.log(this.state.workshops);
-    console.log(this.state.register);
-    console.log(this.state.tShirt);
-    console.log(this.state.contact);
-  };
-
-
   render() {
     return (
       <div className="headerDiv">
@@ -50,10 +17,10 @@ class Header extends Component {
           <div className="row" id="navLinks">
             <div className="col m2">
               <NavLink to="/About" activeStyle={activeStyle}>About</NavLink>
-              </div>
+            </div>
             <div className="col m2">
               <NavLink to="/Speaker" activeStyle={activeStyle}>Our Speaker</NavLink>
-              </div>
+            </div>
             <div className="col m2">
               <NavLink to="/Workshops" activeStyle={activeStyle}>Workshops</NavLink>
             </div>

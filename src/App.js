@@ -9,6 +9,7 @@ import Workshops from "./Workshops.js";
 import Shirt from "./Shirt.js";
 import Contact from "./Contact.js";
 import Footer from "./Footer.js";
+import Expired from "./Expired.js";
 
 const App = () => (
   <Router>
@@ -21,6 +22,7 @@ const App = () => (
         <Route exact path="/Workshops" component={Workshops} />
         <Route exact path="/Shirt" component={Shirt} />
         <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/Expired" component={Expired} />
         <Redirect from="/" to="/About" />
       </Switch>
       <Footer />

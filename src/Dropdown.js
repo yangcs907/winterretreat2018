@@ -27,7 +27,7 @@ class Dropdown extends Component {
           aria-haspopup="true"
           onClick={this.handleClick}
           id="dropdownButton"
-        >
+          >
           <i className="fas fa-bars"></i>
         </a>
         <Menu
@@ -35,13 +35,13 @@ class Dropdown extends Component {
           anchorEl={anchorEl}
           open={Boolean(anchorEl)}
           onClose={this.handleClose}
-        >
+          >
           <MenuItem onClick={this.handleClose}><a href="/About" id="dropdownLinks">About</a></MenuItem>
-            <MenuItem onClick={this.handleClose}><a href="/Speaker" id="dropdownLinks">Our Speaker</a></MenuItem>
-              <MenuItem onClick={this.handleClose}><a href="/Workshops" id="dropdownLinks">Workshops</a></MenuItem>
-                <MenuItem onClick={this.handleClose}><a href="/Register" id="dropdownLinks">Register</a></MenuItem>
-                  <MenuItem onClick={this.handleClose}><a href="/Shirt" id="dropdownLinks">T-Shirt Design</a></MenuItem>
-                    <MenuItem onClick={this.handleClose}><a href="/Contact" id="dropdownLinks">Contact</a></MenuItem>
+          <MenuItem onClick={this.handleClose}><a href="/Speaker" id="dropdownLinks">Our Speaker</a></MenuItem>
+          <MenuItem onClick={this.handleClose}><a href="/Workshops" id="dropdownLinks">Workshops</a></MenuItem>
+          <MenuItem onClick={this.handleClose}><a href="/Register" id="dropdownLinks">Register</a></MenuItem>
+          <MenuItem onClick={this.handleClose}><a href="/Shirt" id="dropdownLinks">T-Shirt Design</a></MenuItem>
+          <MenuItem onClick={this.handleClose}><a href="/Contact" id="dropdownLinks">Contact</a></MenuItem>
         </Menu>
       </div>
     );
